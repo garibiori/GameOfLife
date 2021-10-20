@@ -1,12 +1,5 @@
+//main file, where are main method lives
 
-/**
- * main file, where are main method lives
- * 
- * @author Devin Keller & Ori Garibi
- * @version 1.0
- * @see main.cpp
- * 
- */
 #include "UserPrompt.h"
 
 int main()
@@ -14,6 +7,9 @@ int main()
     UserPrompt *mp = new UserPrompt;
 
     mp->gameMode();
+
+
+
 
 
     delete mp;

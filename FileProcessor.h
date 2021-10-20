@@ -18,7 +18,6 @@ public:
     FileProcessor(); //default constructor
     ~FileProcessor(); //destructor
     string processFile(string input);
-    //string processFile2(string input, string output);
     void outputFile(string theArray, string theFile);
     int getHeight(string file);
     int getWidth(string file);

@@ -38,19 +38,15 @@ string FileProcessor::processFile(string file)
     while (getline(infile, fileString))
     {
         x+=1;
-        //cout<<x<<fileString<<endl;
         if(x>2){
             inputLine += fileString;
-            //inputLine +='\n';
         }
 
     }
     cout << "Reading from the file..." << endl;
     infile >> inputLine;
-    //cout<<inputLine<<endl;
     //Closes File
     infile.close();
-    cout<<inputLine.length()<<endl;
     return inputLine;
 }
 
@@ -83,7 +79,6 @@ int FileProcessor::getHeight(string file){
     {
         heightString += line;
         x = 1;
-        //heightString+= "\n";
     }
     //turns string to int
     int height = stoi(heightString);
@@ -102,15 +97,12 @@ int FileProcessor::getWidth(string file){
     //Skips the first lines to grab width
     while (getline(infile, line))
     {
-        cout << "Start width: "<<endl;
         x+=1;
-        //cout<<line<<endl;
         if(x == 2){
             widthString = line;
             //x += 1;
             break;
         }
-        //heightString+= "\n";
     }
     //turns string into int
     int width = stoi(widthString);

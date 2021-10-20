@@ -10,7 +10,6 @@ public:
     string configuration();
     void gameMode();
     int pause(int mode);
-    //void convertFileInput();
     
 
 
