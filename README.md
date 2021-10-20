@@ -2,9 +2,9 @@
 
 README Assignment 5
 
-1. Devin Keller
-   2368610
-   dkeller@chapman.edu
+1. Ori Garibi
+   2367830
+   garibi@chapman.edu
    CPSC 350
    Assignment_3
 
@@ -17,15 +17,14 @@ UserPrompt.h
 main.cpp
 Makefile
 
-3) Worked with Ori G
+3) Worked with Devin K
 
 4) https://www.programiz.com/cpp-programming/multidimensional-arrays
 
 
 
 5) make all
-   g++ *.cpp -o foobar.out   
-   ./foobar.out
+   ./assignment3.exe
 
 # GameOfLife
 
