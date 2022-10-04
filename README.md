@@ -1,12 +1,4 @@
-# CPSC350_FA21_ASSIGNMENT0_KELLER
-
-README Assignment 5
-
-1. Ori Garibi
-   2367830
-   garibi@chapman.edu
-   CPSC 350
-   Assignment_3
+1)GAME OF LIFE WITH DIFFERENT GAME MODES
 
 2) FileProcessor.cpp
 FileProcessor.h
